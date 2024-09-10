@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the machine learning model
-model_filename = r'C:\Users\uwais\Documents\GitHub\GOLD_PRICE_STRAMLIT\gold.pkl'
+model_filename = 'gold.pkl'
 with open(model_filename, 'rb') as file:
     model = pickle.load(file)
 
